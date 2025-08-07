@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Teste projet.exe" version="1.0.0.1" publicKeyToken="1280bca0451249d1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Teste projet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Teste projet.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opções de Manifesto UAC
+ Se você deseja alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó requestedExecutionLevel 
+ por um dos seguintes.
+
+<requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+ Especificar o elemento requestedExecutionLevel desabilitará a virtualização de arquivos e Registro. 
+ Remova esse elemento se seu aplicativo requer essa virtualização para compatibilidade
+            com versões anteriores.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Teste projet.exe" size="8134144">
+      <assemblyIdentity name="Teste projet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MF5MUuTWchQVE85nqCppS7C+yDw/ExhjH/NpGWtudgw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Teste projet.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Uma lista das versões do Windows nas quais este aplicativo foi testado e
+           com as quais ele foi projetado para trabalhar. Remova a marca de comentário dos elementos apropriados
+           e o Windows selecionará automaticamente o ambiente mais compatível. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=GRUPONATULAB\eliezerjunior" issuerKeyHash="21c7d571fe2c5dd78ad18bfe475863b3726f08d0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VL1poAHgqVO+ZxCHQ2MN9LB0zgLj3o33cbHpLTTxJV8=</DigestValue></Reference></SignedInfo><SignatureValue>APNArXQhJClL7OqBex1hvidAHR7hST2X2zz7TCyjVpsujXaR24ncqwno1wdoD6I03Hsn2rzhc/PZs3KlzTnK/IcIiZi+TALJ9uKosqhKDu5XNqnj0TYYM7M8HmB0SiIkHfTMEAiJK06B8gO8bsYKQUHp0OSMypI7rdxIokIulYU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oBM5D8JUmBtSjF2TAorX0hL6vOlRzQdG2HTwmJ+S6ocUm5YRhKoPUY0zbRAdAxu5QiGjTMiCy3OaXb9OwVqELSGMpzxPGduSfDaijrWPxFoEu1O1ZyvcixU3pWnrd+zB+YgOOi1vtV8MuRhK0MJOsCtrLxYjStrYJnkXbMnoMGE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5f25f1342de9b171f78ddee302ce74b0f40d6343871067be53a9e001a069bd54" Description="" Url=""><as:assemblyIdentity name="Teste projet.exe" version="1.0.0.1" publicKeyToken="1280bca0451249d1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GRUPONATULAB\eliezerjunior</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Kn8vrx6HVP8+Ua9mpsiUJljYn54qi1fIGcftdJ4e0Mo=</DigestValue></Reference></SignedInfo><SignatureValue>ZXD36HKy8c6FWdVD2NXn/dazsyehZO9/SN2LwNTs5zQDj6o36xgyTMbThhsTCObRkEgNT/FZ2uJNN13pyqTh1yp05WoToW99+nZ+4deQznVNouBSx6ucdKKgzcVIjTjTq+2bn3/VH22Cm8k01BibJ3DnFB7hdi5BEnGHcA/xTwY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oBM5D8JUmBtSjF2TAorX0hL6vOlRzQdG2HTwmJ+S6ocUm5YRhKoPUY0zbRAdAxu5QiGjTMiCy3OaXb9OwVqELSGMpzxPGduSfDaijrWPxFoEu1O1ZyvcixU3pWnrd+zB+YgOOi1vtV8MuRhK0MJOsCtrLxYjStrYJnkXbMnoMGE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQNP5IwSCOtbVNn2jS8PTRJjANBgkqhkiG9w0BAQsFADA/MT0wOwYDVQQDHjQARwBSAFUAUABPAE4AQQBUAFUATABBAEIAXABlAGwAaQBlAHoAZQByAGoAdQBuAGkAbwByMB4XDTI1MDgwNzE4MTAzN1oXDTI2MDgwODAwMTAzN1owPzE9MDsGA1UEAx40AEcAUgBVAFAATwBOAEEAVABVAEwAQQBCAFwAZQBsAGkAZQB6AGUAcgBqAHUAbgBpAG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoBM5D8JUmBtSjF2TAorX0hL6vOlRzQdG2HTwmJ+S6ocUm5YRhKoPUY0zbRAdAxu5QiGjTMiCy3OaXb9OwVqELSGMpzxPGduSfDaijrWPxFoEu1O1ZyvcixU3pWnrd+zB+YgOOi1vtV8MuRhK0MJOsCtrLxYjStrYJnkXbMnoMGECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBC4/vAV8CpPg+PAnsgjNBfXMsc/JX26PuwLSOawhamiuYwLBeA1OvhudjX5WQJtLqda7lrgDo+0AZvCod5sxw5ZrB9jB2EkcwXVEeZn9plxEx6h5Dhf8f/kjf17rkt2wYBknW54xf9H+h0GOiQ6HMwt35JF0EGrsOQNBLGv2WXNw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
